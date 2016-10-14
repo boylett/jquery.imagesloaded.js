@@ -1,5 +1,5 @@
 /**
- * Triggers an event when all visible images in the document have loaded
+ * Triggers an event when all images in the document have loaded
  * Written by Ryan Boylett <ryan@boylett.uk>
  * Version 1.0.0
  */
