@@ -22,7 +22,7 @@ jQuery(function($)
 						all_images[i].loaded = true;
 					}
 
-					if(!all_images[i].loaded)
+					else if(!all_images[i].loaded)
 					{
 						all_loaded = false;
 					}
