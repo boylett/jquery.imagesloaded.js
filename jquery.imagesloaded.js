@@ -1,6 +1,6 @@
 /**
  * Triggers an event when all images in the document have loaded
- * Written by Ryan Boylett <ryan@boylett.uk>
+ * Written by Rytoonist <https://rytoonist.com/>
  * Version 1.0.0
  */
 
@@ -30,8 +30,6 @@ jQuery(function($)
 
 				if(all_loaded)
 				{
-					console.log(all_images);
-
 					$(document).trigger('all-images-loaded', e || {});
 
 					all_images = null;
@@ -53,5 +51,6 @@ jQuery(function($)
 	{
 		all_images.push({ o: this, loaded: false });
 	})
+	
 	.on('load error', load_one);
 });
